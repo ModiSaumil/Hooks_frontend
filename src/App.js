@@ -10,6 +10,8 @@ import Learnhooks from './hooks/Learnhooks';
 // import Displaydd from './hooks/display';
 import HookUse from './hooks/display';
 import Counterr from './hooks/Reducer';
+import Context from './hooks/Context';
+
 
 function App() {
   
@@ -25,6 +27,7 @@ function App() {
           <Route path='/hooks' element={<Learnhooks />}></Route>
           <Route path='/usemsg' element={<HookUse/>}></Route>
           <Route path='/reducer' element={<Counterr />}></Route>
+          <Route path='/context' element={<Context/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>

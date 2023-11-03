@@ -12,6 +12,7 @@ export class Home extends Component {
         '/game' write this for game.<br></br>
         '/hooks' write this to learn hooks.<br></br>
         '/usemsg' write this to download JAWAN Movie.<br/>
+        '/context' write to learn context<br></br>
       </>
     )
   }
